@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.11.0](https://github.com/breadcat0314/unbound/compare/utils-v0.10.0...utils-v0.11.0) (2026-11-07)
+
+
+### Features
+
+* **cli:** overhaul the plugin developer experience ([#907](https://github.com/breadcat0314/unbound/issues/907)) ([64e34e7](https://github.com/breadcat0314/unbound/commit/64e34e7729ed1edf3677acdabbd32900a0945c9a))
+
+
+### Code Refactoring
+
+* fix architecture smells and enforce them with oxlint rules ([#574](https://github.com/breadcat0314/unbound/issues/574)) ([577a2af](https://github.com/breadcat0314/unbound/commit/577a2af9ca4f479a805765481927b1ff9302c1ec))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @unbound-app/types bumped to 0.13.0
+
 ## [0.10.0](https://github.com/marioparaschiv/unbound/compare/utils-v0.9.2...utils-v0.10.0) (2026-11-05)
 
 

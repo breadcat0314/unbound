@@ -1,5 +1,44 @@
 # Changelog
 
+## [0.11.0](https://github.com/breadcat0314/unbound/compare/debugger-v0.10.0...debugger-v0.11.0) (2026-11-07)
+
+
+### Features
+
+* **cli:** overhaul the plugin developer experience ([#907](https://github.com/breadcat0314/unbound/issues/907)) ([64e34e7](https://github.com/breadcat0314/unbound/commit/64e34e7729ed1edf3677acdabbd32900a0945c9a))
+* **debugger:** timestamp the bridge log and name the connected device ([#401](https://github.com/breadcat0314/unbound/issues/401)) ([61ba33f](https://github.com/breadcat0314/unbound/commit/61ba33f333f939dac9e8c0f98c40d2b468a2c604))
+
+
+### Bug Fixes
+
+* **loader:** unblock the iOS smoke test's debugger and launch ([#395](https://github.com/breadcat0314/unbound/issues/395)) ([cf10319](https://github.com/breadcat0314/unbound/commit/cf10319266cbd0f770f70c954df84698fc829f2e))
+
+
+### Code Refactoring
+
+* fix architecture smells and enforce them with oxlint rules ([#574](https://github.com/breadcat0314/unbound/issues/574)) ([577a2af](https://github.com/breadcat0314/unbound/commit/577a2af9ca4f479a805765481927b1ff9302c1ec))
+* remove unused code and needless exports ([#433](https://github.com/breadcat0314/unbound/issues/433)) ([0d44d8c](https://github.com/breadcat0314/unbound/commit/0d44d8cd896965f7da484f5e83c5f0b711677fdc))
+
+
+### Build System
+
+* **deps:** bump @babel/plugin-syntax-jsx from 7.29.7 to 8.0.1 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump @babel/preset-typescript from 7.29.7 to 8.0.7 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump postgres from 3.4.9 to 4.0.0 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump the minor-and-patch group with 5 updates ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+
+
+### Continuous Integration
+
+* **deps:** bump gradle/actions/setup-gradle to 6.4.1 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @unbound-app/debugger-protocol bumped to 0.11.0
+
 ## [0.10.0](https://github.com/marioparaschiv/unbound/compare/debugger-v0.9.1...debugger-v0.10.0) (2026-11-05)
 
 
