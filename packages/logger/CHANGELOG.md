@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.7.4](https://github.com/breadcat0314/unbound/compare/logger-v0.7.3...logger-v0.7.4) (2026-11-07)
+
+
+### Performance Improvements
+
+* **client:** cut the bundle by 28% and move off zod ([#868](https://github.com/breadcat0314/unbound/issues/868)) ([e662499](https://github.com/breadcat0314/unbound/commit/e662499d9553f8025a0f72ab03710273ba0507da))
+
+
+### Code Refactoring
+
+* fix architecture smells and enforce them with oxlint rules ([#574](https://github.com/breadcat0314/unbound/issues/574)) ([577a2af](https://github.com/breadcat0314/unbound/commit/577a2af9ca4f479a805765481927b1ff9302c1ec))
+
 ## [0.7.3](https://github.com/marioparaschiv/unbound/compare/logger-v0.7.2...logger-v0.7.3) (2026-11-05)
 
 

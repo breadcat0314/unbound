@@ -1,5 +1,118 @@
 # Changelog
 
+## [2.0.0](https://github.com/breadcat0314/unbound/compare/api-v1.0.0...api-v2.0.0) (2026-11-07)
+
+
+### Features
+
+* **android:** notify hooks after the original runs ([c7f1e92](https://github.com/breadcat0314/unbound/commit/c7f1e924f9607440ef7b4031ecb2bf913f7f32b2))
+* **android:** search plugin views on the main thread ([#509](https://github.com/breadcat0314/unbound/issues/509)) ([4616a75](https://github.com/breadcat0314/unbound/commit/4616a75e2f79abd325146e7cc1f49cf0bb856317))
+* **avatar-radius:** round avatars from UI-thread hooks ([4809639](https://github.com/breadcat0314/unbound/commit/480963908b2f13cbafee1d4abce5c6618bf959fa))
+* **cli:** add ubd profile for Hermes' sampling profiler ([0c2c07e](https://github.com/breadcat0314/unbound/commit/0c2c07eec18cd1955cf023162795c6adc2e35a82))
+* **client:** add a typed native.objc.create ([#726](https://github.com/breadcat0314/unbound/issues/726)) ([6dca897](https://github.com/breadcat0314/unbound/commit/6dca89729b4efc0f5022147145e5515b522c52d4))
+* **client:** add addon, updates, sync and builtins namespaces ([#727](https://github.com/breadcat0314/unbound/issues/727)) ([edbbc37](https://github.com/breadcat0314/unbound/commit/edbbc3791ab8e2681c44b49297b892d936d776a4))
+* **client:** add chat backgrounds that themes can recommend ([#966](https://github.com/breadcat0314/unbound/issues/966)) ([4b72e6e](https://github.com/breadcat0314/unbound/commit/4b72e6e9f7d29608901ec4320985685fd3cd1069))
+* **client:** add commands.register and commands.unregister ([#708](https://github.com/breadcat0314/unbound/issues/708)) ([2ea9a39](https://github.com/breadcat0314/unbound/commit/2ea9a390863152c23586e3838e72e63cf013a543))
+* **client:** add metro.onModuleLoad and hide internal members ([#695](https://github.com/breadcat0314/unbound/issues/695)) ([ad49b36](https://github.com/breadcat0314/unbound/commit/ad49b36ed1988770143efc97c2009459cab784ac))
+* **client:** add new names for fs, assets, toasts, i18n and settings ([#693](https://github.com/breadcat0314/unbound/issues/693)) ([968a5d4](https://github.com/breadcat0314/unbound/commit/968a5d4b7ffc26a1a0d0bde605da210b642b230c))
+* **client:** add the Bucket API to storage ([#694](https://github.com/breadcat0314/unbound/issues/694)) ([e0be2df](https://github.com/breadcat0314/unbound/commit/e0be2dfe91c70bd3c431316dad008d20c44f6f44))
+* **client:** add the flux namespace ([#722](https://github.com/breadcat0314/unbound/issues/722)) ([f0213f2](https://github.com/breadcat0314/unbound/commit/f0213f2d78a309964be60f3101803b8a750b9f8c))
+* **client:** add the ui namespace for addon settings ([#728](https://github.com/breadcat0314/unbound/issues/728)) ([26840c9](https://github.com/breadcat0314/unbound/commit/26840c943c39a5412dda1a30376faf066fae0cd3))
+* **client:** evaluate plugins with a per-plugin Addon scope ([#721](https://github.com/breadcat0314/unbound/issues/721)) ([a58fe1c](https://github.com/breadcat0314/unbound/commit/a58fe1ce39a303ef5edec93e21175914c1a738c2))
+* **client:** expose plugin start durations ([b7e7a9a](https://github.com/breadcat0314/unbound/commit/b7e7a9aea635e6b420fea7e709a425e1973d6ae0))
+* **client:** lazy patch targets and lazy addon lookups ([#714](https://github.com/breadcat0314/unbound/issues/714)) ([e7c1cd9](https://github.com/breadcat0314/unbound/commit/e7c1cd9a7c788bf1f6a3d58a63591a91df36cdf4))
+* **client:** let worklets call back into JS ([8a01f16](https://github.com/breadcat0314/unbound/commit/8a01f1625f188431a9d88f5fbf8c5cb50762b6bd))
+* **client:** read manifest platforms, add definePlatform and has ([#723](https://github.com/breadcat0314/unbound/issues/723)) ([9c31acf](https://github.com/breadcat0314/unbound/commit/9c31acf0591982314e8c35457b91740d45f3d67a))
+* **client:** redesign settings and add a shared Unbound account ([#810](https://github.com/breadcat0314/unbound/issues/810)) ([859add1](https://github.com/breadcat0314/unbound/commit/859add1230f6dce2ff67c2088f4590199a8ab667))
+* **client:** scope module listeners, buckets, flux and commands ([#731](https://github.com/breadcat0314/unbound/issues/731)) ([e8e913c](https://github.com/breadcat0314/unbound/commit/e8e913cb68d341bb0dd75614b390b35bec805555))
+* **client:** show an addon's store page from the marketplace ([#725](https://github.com/breadcat0314/unbound/issues/725)) ([6f87e74](https://github.com/breadcat0314/unbound/commit/6f87e74b5b712d210d9e449c8ad33dee330badeb))
+* **cli:** overhaul the plugin developer experience ([#907](https://github.com/breadcat0314/unbound/issues/907)) ([64e34e7](https://github.com/breadcat0314/unbound/commit/64e34e7729ed1edf3677acdabbd32900a0945c9a))
+* **cli:** show plugin start times in ubd status ([b7e7a9a](https://github.com/breadcat0314/unbound/commit/b7e7a9aea635e6b420fea7e709a425e1973d6ae0))
+* **contracts:** add the manifest platforms field ([#691](https://github.com/breadcat0314/unbound/issues/691)) ([edac1ed](https://github.com/breadcat0314/unbound/commit/edac1ed2f287a26e869bf02057c2244684494aba))
+* **discord-types:** generated Discord component types, published as @unbound-app/discord-types ([#342](https://github.com/breadcat0314/unbound/issues/342)) ([a4fde85](https://github.com/breadcat0314/unbound/commit/a4fde8581b4b1de9d10c9cbdbae691c5c0f3c36a))
+* give /debug the same shape on Android and iOS ([#476](https://github.com/breadcat0314/unbound/issues/476)) ([73d89f4](https://github.com/breadcat0314/unbound/commit/73d89f4962a43dff91bb91aef6f85e13d1a72afa))
+* **loader:** add an in-app updater for patched Discord ([#956](https://github.com/breadcat0314/unbound/issues/956)) ([747ef3b](https://github.com/breadcat0314/unbound/commit/747ef3bde0f5b712e1548a4d3b4c3aad7394bcc6))
+* **loader:** count live Objective-C handles in native resources ([#410](https://github.com/breadcat0314/unbound/issues/410)) ([5897bb7](https://github.com/breadcat0314/unbound/commit/5897bb7fd77579dd59ce0a66b22f2c1b9bce34ee))
+* **loader:** log the JavaScript stack of a plugin that freezes Discord ([#478](https://github.com/breadcat0314/unbound/issues/478)) ([ca61ca2](https://github.com/breadcat0314/unbound/commit/ca61ca2a431de41d9b0e5cd5d977b28c5e2cc67a))
+* **loader:** replace preload.js with the UnboundNative bridge ([#902](https://github.com/breadcat0314/unbound/issues/902)) ([4d7a469](https://github.com/breadcat0314/unbound/commit/4d7a469e0cad7791c731e0f2b156bde960722406))
+* **loader:** report active iOS jailbreak in diagnostics ([#905](https://github.com/breadcat0314/unbound/issues/905)) ([b00057b](https://github.com/breadcat0314/unbound/commit/b00057bb2208c4b5b080a9a5251bf1aed5ce81c1))
+* **loader:** report native resources in the smoke test ([#405](https://github.com/breadcat0314/unbound/issues/405)) ([436d879](https://github.com/breadcat0314/unbound/commit/436d879b4cdaa58a72d7a139ba98a5a038cbf5d8))
+* **plugins:** let plugins check themselves for the device matrix ([#464](https://github.com/breadcat0314/unbound/issues/464)) ([fa74c7f](https://github.com/breadcat0314/unbound/commit/fa74c7f70d40d29abadb22e4a5234950ec162d2f))
+* **plugins:** move chat bubbles and avatar radius out of the loader ([#432](https://github.com/breadcat0314/unbound/issues/432)) ([8a49209](https://github.com/breadcat0314/unbound/commit/8a49209d0075a7a4051561bccc904166293f1a28))
+* report the verified build on both platforms ([#499](https://github.com/breadcat0314/unbound/issues/499)) ([eda9405](https://github.com/breadcat0314/unbound/commit/eda9405ec5a3ed911aecbe4c34be67b24537d8ca))
+* **sdk-generator:** drop module default objects ([#678](https://github.com/breadcat0314/unbound/issues/678)) ([a5b000d](https://github.com/breadcat0314/unbound/commit/a5b000dbe706c62debd54397f59eeba8476358f7))
+* **sdk:** add the @unbound-app/api/testing kit ([#738](https://github.com/breadcat0314/unbound/issues/738)) ([2ebe700](https://github.com/breadcat0314/unbound/commit/2ebe70055d7801dfdaeb1b2c26bcfa822734a510))
+* **sdk:** type the Addon scope globals in global.d.ts ([#737](https://github.com/breadcat0314/unbound/issues/737)) ([5fde80b](https://github.com/breadcat0314/unbound/commit/5fde80ba20afc9a06b6a0cc2f59cf58ca14bf057))
+* type all of window.unbound and publish versioned API docs ([#784](https://github.com/breadcat0314/unbound/issues/784)) ([3174a68](https://github.com/breadcat0314/unbound/commit/3174a68aa9713d44631bf2527b0014a7d79f2a8c))
+
+
+### Bug Fixes
+
+* **api:** regenerate the SDK with the profiler type ([eb65292](https://github.com/breadcat0314/unbound/commit/eb65292fad531795be4130f489c7a6e90456bc0b))
+* **client:** apply icon packs on Discord 349 ([#730](https://github.com/breadcat0314/unbound/issues/730)) ([b4f7310](https://github.com/breadcat0314/unbound/commit/b4f73109ad4e430402851d5a7e3be884ebdb7eaa))
+* **client:** read core settings from the loader's store ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **client:** render store page media and bold on Discord 349 ([#732](https://github.com/breadcat0314/unbound/issues/732)) ([bc19683](https://github.com/breadcat0314/unbound/commit/bc1968388911bc769286854a12d725ce5e21f9cf))
+* **client:** trim isRenderable and the design audit from the SDK ([#867](https://github.com/breadcat0314/unbound/issues/867)) ([e47bd64](https://github.com/breadcat0314/unbound/commit/e47bd646d89fb4fd6461164c4a8c6c9acf8d7126))
+* **native:** follow Cocoa ownership in the iOS bridge and create ([#904](https://github.com/breadcat0314/unbound/issues/904)) ([d17f03c](https://github.com/breadcat0314/unbound/commit/d17f03c15fef7d0dfcb57ca37970e806371a35b8))
+* **plugins:** reach the Android module's current class names ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **plugins:** read every Android view on the main thread ([#515](https://github.com/breadcat0314/unbound/issues/515)) ([45b3423](https://github.com/breadcat0314/unbound/commit/45b34237d12dd97ffe8517c56f3723b21333e082))
+
+
+### Performance Improvements
+
+* **chat-bubbles:** wake JS only for Android rows that need measuring ([8a01f16](https://github.com/breadcat0314/unbound/commit/8a01f1625f188431a9d88f5fbf8c5cb50762b6bd))
+* **client:** add a cached byTypeName metro filter ([45ce33c](https://github.com/breadcat0314/unbound/commit/45ce33c0a17bf1aa83955410bab0811019d0d49e))
+* **client:** cut the bundle by 28% and move off zod ([#868](https://github.com/breadcat0314/unbound/issues/868)) ([e662499](https://github.com/breadcat0314/unbound/commit/e662499d9553f8025a0f72ab03710273ba0507da))
+* **client:** load modules on demand, import Discord's libraries ([#789](https://github.com/breadcat0314/unbound/issues/789)) ([d732248](https://github.com/breadcat0314/unbound/commit/d7322488f7019307615246b4fc29d60fa5d85330))
+* **client:** look up file-path searches and waits by path ([#806](https://github.com/breadcat0314/unbound/issues/806)) ([8c17656](https://github.com/breadcat0314/unbound/commit/8c17656d0990b9e88e68457458363e37dfe65c27))
+* **loader:** harden the native runtime and add cheaper native paths ([#879](https://github.com/breadcat0314/unbound/issues/879)) ([3686732](https://github.com/breadcat0314/unbound/commit/36867326491240cc5ab27082a795537df282de27))
+* **loader:** keep compiled plugin sources off the JS heap ([0c2c07e](https://github.com/breadcat0314/unbound/commit/0c2c07eec18cd1955cf023162795c6adc2e35a82))
+* **loader:** second native round, Always Animate, bubble card layout ([#881](https://github.com/breadcat0314/unbound/issues/881)) ([1aeea65](https://github.com/breadcat0314/unbound/commit/1aeea656a7eb1d16e51b6fc14e6e86688b58c227))
+* **loader:** third native round, legacy removal, three Vencord ports ([#885](https://github.com/breadcat0314/unbound/issues/885)) ([7311206](https://github.com/breadcat0314/unbound/commit/7311206e0f0fad007bfc086fadd1c17181679fae))
+
+
+### Code Refactoring
+
+* **client:** add AddonKind and Manager.for ([#684](https://github.com/breadcat0314/unbound/issues/684)) ([82c0cd6](https://github.com/breadcat0314/unbound/commit/82c0cd6e92471066f0d3511622e6a5666c2a87f0))
+* **client:** add the Addon class and per-kind behaviour ([#705](https://github.com/breadcat0314/unbound/issues/705)) ([3195a68](https://github.com/breadcat0314/unbound/commit/3195a68bb18b726d8e7c6e2e1ef033d58fb387a6))
+* **client:** remove deprecated APIs and document the SDK ([#795](https://github.com/breadcat0314/unbound/issues/795)) ([ae90809](https://github.com/breadcat0314/unbound/commit/ae90809cad35698c8df7e954ff283a526500fb13))
+* **client:** share the native method-to-Capability map ([#681](https://github.com/breadcat0314/unbound/issues/681)) ([cbfa587](https://github.com/breadcat0314/unbound/commit/cbfa5873fc4ee69f24d2719eccf672f40dd9ce13))
+* **client:** type each patcher callback by its patch kind ([#682](https://github.com/breadcat0314/unbound/issues/682)) ([a6e2744](https://github.com/breadcat0314/unbound/commit/a6e2744af84e3f051731bd6f7df6d5f0b9c67e03))
+* fix architecture smells and enforce them with oxlint rules ([#574](https://github.com/breadcat0314/unbound/issues/574)) ([577a2af](https://github.com/breadcat0314/unbound/commit/577a2af9ca4f479a805765481927b1ff9302c1ec))
+* **ios:** drop hook size height floors ([#429](https://github.com/breadcat0314/unbound/issues/429)) ([778fd98](https://github.com/breadcat0314/unbound/commit/778fd9868207330896a009d04b234ffe9c291636))
+* **loader:** choose the Android build in a tested command ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **native:** drop the unused ui namespace ([#430](https://github.com/breadcat0314/unbound/issues/430)) ([7d872e3](https://github.com/breadcat0314/unbound/commit/7d872e3c85db7770d2af8db725c18eacd43f0462))
+* **plugins:** migrate every plugin to the new plugin setup ([#910](https://github.com/breadcat0314/unbound/issues/910)) ([bea93f7](https://github.com/breadcat0314/unbound/commit/bea93f7d146092cb72ed7892c3c97174ba7af6ae))
+* **plugins:** move first-party plugin ids to the new namespace ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* rename astral back to unbound ([#751](https://github.com/breadcat0314/unbound/issues/751)) ([05faca1](https://github.com/breadcat0314/unbound/commit/05faca1a9fef48992fd80f981f009d02da943b40))
+
+
+### Build System
+
+* treat Bun's empty test runs as passing in the pre-push hook ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+
+
+### Tests
+
+* **core:** keep sanitizer reports out of the crash attribution children ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+
+
+### Continuous Integration
+
+* **deps:** fit Dependabot titles to the commit header limit ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** build PRs against the current App Store Discord ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** let main builds finish instead of cancelling each other ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** show smoke failures and the first crash in the PR comment ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** skip the Android smoke test for unattested builds ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @unbound-app/client bumped to 2.0.0
+    * @unbound-app/sdk-generator bumped to 0.12.0
+
 ## [1.0.0](https://github.com/marioparaschiv/unbound/compare/api-v0.12.0...api-v1.0.0) (2026-11-05)
 
 

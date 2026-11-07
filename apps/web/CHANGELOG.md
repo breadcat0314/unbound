@@ -1,5 +1,145 @@
 # Changelog
 
+## [0.14.0](https://github.com/breadcat0314/unbound/compare/web-v0.13.0...web-v0.14.0) (2026-11-07)
+
+
+### Features
+
+* choose and downgrade addon versions from the marketplace ([#443](https://github.com/breadcat0314/unbound/issues/443)) ([7190ac2](https://github.com/breadcat0314/unbound/commit/7190ac2e53ecb0d49976898dee8c61bf19705ae3))
+* **client:** move fonts to a native font store with presets ([#969](https://github.com/breadcat0314/unbound/issues/969)) ([40ff081](https://github.com/breadcat0314/unbound/commit/40ff081f49917861523acf3e0a1ad0e8b6ec14f0))
+* **client:** redesign settings and add a shared Unbound account ([#810](https://github.com/breadcat0314/unbound/issues/810)) ([859add1](https://github.com/breadcat0314/unbound/commit/859add1230f6dce2ff67c2088f4590199a8ab667))
+* **cli:** overhaul the plugin developer experience ([#907](https://github.com/breadcat0314/unbound/issues/907)) ([64e34e7](https://github.com/breadcat0314/unbound/commit/64e34e7729ed1edf3677acdabbd32900a0945c9a))
+* **discord-bot:** send authors their review decisions by DM ([#799](https://github.com/breadcat0314/unbound/issues/799)) ([020ef60](https://github.com/breadcat0314/unbound/commit/020ef60f73cf6c3a089d57dd1f82bdd297990fa9))
+* **discord-bot:** v2 addon cards with gallery and author avatars ([#871](https://github.com/breadcat0314/unbound/issues/871)) ([444fe85](https://github.com/breadcat0314/unbound/commit/444fe854746bc7e5a0b654e0ad17ffaecb8f7bc5))
+* **loader:** add an in-app updater for patched Discord ([#956](https://github.com/breadcat0314/unbound/issues/956)) ([747ef3b](https://github.com/breadcat0314/unbound/commit/747ef3bde0f5b712e1548a4d3b4c3aad7394bcc6))
+* **loader:** publish the deb and module on every loader change ([#963](https://github.com/breadcat0314/unbound/issues/963)) ([56d848f](https://github.com/breadcat0314/unbound/commit/56d848f0f3fe922e6658934a29eac6cff640cb1c))
+* native sponsor badges in Discord and staff badges without a sponsorship ([#909](https://github.com/breadcat0314/unbound/issues/909)) ([3fdd04f](https://github.com/breadcat0314/unbound/commit/3fdd04fd167760332bf5a4c605509a959b9ac6e6))
+* report the verified build on both platforms ([#499](https://github.com/breadcat0314/unbound/issues/499)) ([eda9405](https://github.com/breadcat0314/unbound/commit/eda9405ec5a3ed911aecbe4c34be67b24537d8ca))
+* require a minimum loader version per bundle ([#962](https://github.com/breadcat0314/unbound/issues/962)) ([840bcfa](https://github.com/breadcat0314/unbound/commit/840bcfa3912c370623fad8b7e810af46e5598d8f))
+* **themes:** add Rosie themes, a theme maker and theme hot reload ([#985](https://github.com/breadcat0314/unbound/issues/985)) ([0c926db](https://github.com/breadcat0314/unbound/commit/0c926dbc03587960ac2d16f16cdd78fd07abfc5e))
+* type all of window.unbound and publish versioned API docs ([#784](https://github.com/breadcat0314/unbound/issues/784)) ([3174a68](https://github.com/breadcat0314/unbound/commit/3174a68aa9713d44631bf2527b0014a7d79f2a8c))
+* **web,cli:** read the built manifest for publish and ubd dev ([#696](https://github.com/breadcat0314/unbound/issues/696)) ([f417abc](https://github.com/breadcat0314/unbound/commit/f417abc0d88f19f2144dc9a2dc5b7f8dde9b7cdd))
+* **web:** add HTTP docs tab from a generated OpenAPI document ([#899](https://github.com/breadcat0314/unbound/issues/899)) ([22cfca2](https://github.com/breadcat0314/unbound/commit/22cfca28d56bd847353dde1eb070aa7c6e035c06))
+* **web:** allow animated GIF sponsor badges ([#912](https://github.com/breadcat0314/unbound/issues/912)) ([77e53df](https://github.com/breadcat0314/unbound/commit/77e53dfd28b6cc37ab7ae79996eeaef58f03ed48))
+* **web:** catalog versions carry their store page URL ([#718](https://github.com/breadcat0314/unbound/issues/718)) ([5f1f0f3](https://github.com/breadcat0314/unbound/commit/5f1f0f31402ce2b4d9890f63a55b454f410f2d2e))
+* **web:** custom Better Auth error page and 404 route ([#747](https://github.com/breadcat0314/unbound/issues/747)) ([e023dea](https://github.com/breadcat0314/unbound/commit/e023deacf17fa35adfbea49622edab6ec9d79b3e))
+* **web:** draw :name: icon shortcodes on addon store pages ([#872](https://github.com/breadcat0314/unbound/issues/872)) ([9d3e3f5](https://github.com/breadcat0314/unbound/commit/9d3e3f54d096cbba4b47b9c0984e494465d7b179))
+* **web:** filter /plugins and /themes by tag, author and update date ([#414](https://github.com/breadcat0314/unbound/issues/414)) ([f5b4703](https://github.com/breadcat0314/unbound/commit/f5b4703c2da2843387a716b8f50cbd55e2e1d0a9))
+* **web:** frosted team cards and blurred profile banners ([#440](https://github.com/breadcat0314/unbound/issues/440)) ([0f3b75b](https://github.com/breadcat0314/unbound/commit/0f3b75ba5d13969cf5f866cf226946bf4cee82cd))
+* **web:** give every first-party addon a website icon ([#449](https://github.com/breadcat0314/unbound/issues/449)) ([3b22e55](https://github.com/breadcat0314/unbound/commit/3b22e55c155e5388d4b4fba93cdb34ea361324f4))
+* **web:** merge plugins and themes into one addons page with tabs ([#800](https://github.com/breadcat0314/unbound/issues/800)) ([fa92f7f](https://github.com/breadcat0314/unbound/commit/fa92f7fa8d5ff542721866b37ff952eef542c7a9))
+* **web:** move the SDK reference to /docs/sdk and the API to /docs/api ([#901](https://github.com/breadcat0314/unbound/issues/901)) ([8459e02](https://github.com/breadcat0314/unbound/commit/8459e024f5fd1e878437fabdd99ea034f2d97589))
+* **web:** one staff link in the menu, no single-tab switcher ([#450](https://github.com/breadcat0314/unbound/issues/450)) ([450eb78](https://github.com/breadcat0314/unbound/commit/450eb78cb75132bdf67e2c77af7f4620f7828b1b))
+* **web:** point Get Started at the install guide and add Browse Addons ([#970](https://github.com/breadcat0314/unbound/issues/970)) ([8bfe545](https://github.com/breadcat0314/unbound/commit/8bfe5450a5c484a3d80ccf24650df5129731c12f))
+* **web:** publish copies the ADDON.md store page and media ([#710](https://github.com/breadcat0314/unbound/issues/710)) ([fdaa4cf](https://github.com/breadcat0314/unbound/commit/fdaa4cf5ab901faf80791e76795681099c3955a9))
+* **web:** put addon tags beside the install button and stack overflow ([#801](https://github.com/breadcat0314/unbound/issues/801)) ([173a9cc](https://github.com/breadcat0314/unbound/commit/173a9cc6b44bc8e149322d5b7b1a2b0776ae52be))
+* **web:** put the badge editor in the custom badge perk row ([#917](https://github.com/breadcat0314/unbound/issues/917)) ([3055d24](https://github.com/breadcat0314/unbound/commit/3055d24cb7a158dec714c95fec5937d9a7091767))
+* **web:** read the measured ADDON.md page on submission ([#706](https://github.com/breadcat0314/unbound/issues/706)) ([29627b6](https://github.com/breadcat0314/unbound/commit/29627b6b13831e2ab949a4cfa6216f51b20ff096))
+* **web:** redesign addon pages and let maintainers pick a website icon ([#444](https://github.com/breadcat0314/unbound/issues/444)) ([b61e42b](https://github.com/breadcat0314/unbound/commit/b61e42bd1166479927229b9d136247558b2fa874))
+* **web:** redesign the GitHub submit flow ([#715](https://github.com/breadcat0314/unbound/issues/715)) ([d582e06](https://github.com/breadcat0314/unbound/commit/d582e067b9fb5839e6503e686e4e36b38744d7da))
+* **web:** redesign the staff area and let staff set addon icons ([#447](https://github.com/breadcat0314/unbound/issues/447)) ([f9f764f](https://github.com/breadcat0314/unbound/commit/f9f764f78213c53d785208ced8351ad513dc7851))
+* **web:** render ADDON.md banner, gallery and media ([#701](https://github.com/breadcat0314/unbound/issues/701)) ([04dc235](https://github.com/breadcat0314/unbound/commit/04dc23591c22ddebfb97154c982d8cf06f86d2e2))
+* **web:** replace Mintlify with built-in docs tabs ([7567ced](https://github.com/breadcat0314/unbound/commit/7567cede76ba53c11dc530709fe0a433fbbf4d50))
+* **web:** show Capabilities per platform ([#700](https://github.com/breadcat0314/unbound/issues/700)) ([73f4262](https://github.com/breadcat0314/unbound/commit/73f4262f467f3df3e56d62ed4c7ee5113a48ff53))
+* **web:** sign up without an email and delete stored emails ([#906](https://github.com/breadcat0314/unbound/issues/906)) ([ec0df83](https://github.com/breadcat0314/unbound/commit/ec0df83883fc48cfe18348a23cd2b4241cdef269))
+* **web:** sponsor badges as PNGs, $5 tier and profile perks ([#809](https://github.com/breadcat0314/unbound/issues/809)) ([c19e946](https://github.com/breadcat0314/unbound/commit/c19e94652620ad34cb09a6c21aa91247914380a9))
+* **web:** stagger detail page entrances and move team pages to /team and /profiles ([#435](https://github.com/breadcat0314/unbound/issues/435)) ([768204c](https://github.com/breadcat0314/unbound/commit/768204c23252b0a30026dc7d7cb6fd5418551171))
+* **web:** sync Discord banners, names and avatars to the team pages ([#442](https://github.com/breadcat0314/unbound/issues/442)) ([2d9697f](https://github.com/breadcat0314/unbound/commit/2d9697f13018616e904009a8d02a8312d6842574))
+
+
+### Bug Fixes
+
+* clear the lint, type and test failures on main ([#932](https://github.com/breadcat0314/unbound/issues/932)) ([594831f](https://github.com/breadcat0314/unbound/commit/594831f1839c6bc0278cc552d52aa368b3c5c841))
+* **client:** read core settings from the loader's store ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **plugins:** reach the Android module's current class names ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* use one link scheme across the loader, client and site ([260d1e1](https://github.com/breadcat0314/unbound/commit/260d1e1d70b36185d780a202052f577c0ac5fe9a))
+* **web:** centre the theme maker's preview tab labels ([#986](https://github.com/breadcat0314/unbound/issues/986)) ([37a68e4](https://github.com/breadcat0314/unbound/commit/37a68e43a32415ca302775c0e532d09938446e9c))
+* **web:** cover the mobile hero with dots, phones edge to edge ([#393](https://github.com/breadcat0314/unbound/issues/393)) ([85523b1](https://github.com/breadcat0314/unbound/commit/85523b1171fcb58ffd77fc7d2a1cf62e14e6cc04))
+* **web:** drop route view transitions so the header pill slides again ([#436](https://github.com/breadcat0314/unbound/issues/436)) ([1d073ca](https://github.com/breadcat0314/unbound/commit/1d073ca594c94e758f90b25def80c3dc54f1edee))
+* **web:** drop saturate-300 from team card avatar glow ([#446](https://github.com/breadcat0314/unbound/issues/446)) ([e3316cc](https://github.com/breadcat0314/unbound/commit/e3316cc9f664fb3d4c7a79483aadc83608cc81f6))
+* **web:** glide a hovered menu row into view instead of jumping ([#417](https://github.com/breadcat0314/unbound/issues/417)) ([ad814dc](https://github.com/breadcat0314/unbound/commit/ad814dc809941f9c704ea6074a4c1f69a7f74121))
+* **web:** keep rejected and superseded files off the CDN ([#933](https://github.com/breadcat0314/unbound/issues/933)) ([daebd6a](https://github.com/breadcat0314/unbound/commit/daebd6a8da8dad7badd2dffe3c8d77973598008b))
+* **web:** keep the dotted background one viewport tall ([#791](https://github.com/breadcat0314/unbound/issues/791)) ([0445168](https://github.com/breadcat0314/unbound/commit/04451686395e9a183df0a98bca4d2babdaeec1da))
+* **web:** lift the page noise over content and point docs links at /docs ([#804](https://github.com/breadcat0314/unbound/issues/804)) ([74b8d73](https://github.com/breadcat0314/unbound/commit/74b8d73cef222ed95f510855214ecb2a27255c45))
+* **web:** limit emails to the dev team and block role escalation ([#765](https://github.com/breadcat0314/unbound/issues/765)) ([137cc50](https://github.com/breadcat0314/unbound/commit/137cc50253533181a22c9d1a5066b094288ec667))
+* **web:** list a user's badges by their Discord id ([#913](https://github.com/breadcat0314/unbound/issues/913)) ([28bb3a4](https://github.com/breadcat0314/unbound/commit/28bb3a471d259e9c446beb9c54096aa1ae4551dc))
+* **web:** pad the mobile hero phones and preload the image ([#394](https://github.com/breadcat0314/unbound/issues/394)) ([2c386a9](https://github.com/breadcat0314/unbound/commit/2c386a9773d599b9d1a04e8149b682f6f2cc6e59))
+* **web:** say GIFs work once on the perks card ([#915](https://github.com/breadcat0314/unbound/issues/915)) ([abdf250](https://github.com/breadcat0314/unbound/commit/abdf25058e66575532b896ab6e39966c1fd18ee1))
+* **web:** scope nested expandables and drop HTTP examples ([#900](https://github.com/breadcat0314/unbound/issues/900)) ([f7157e3](https://github.com/breadcat0314/unbound/commit/f7157e380295a725a2439d404f32b921915f7a94))
+* **web:** show each addon's picked icon on the staff addons list ([#769](https://github.com/breadcat0314/unbound/issues/769)) ([31ab09e](https://github.com/breadcat0314/unbound/commit/31ab09e237b5641d638a68cc010aacd5a4f73882))
+* **web:** size page icons to the surrounding text ([#875](https://github.com/breadcat0314/unbound/issues/875)) ([7c59cf4](https://github.com/breadcat0314/unbound/commit/7c59cf4352c5f31dcded6663d7fb46b178b010e7))
+* **web:** span the hero fade across wide viewports ([#802](https://github.com/breadcat0314/unbound/issues/802)) ([902a0d9](https://github.com/breadcat0314/unbound/commit/902a0d973f982fc60352261562a130e5e3a76795))
+* **web:** steady docs sidebar on navigation, show member signatures ([#866](https://github.com/breadcat0314/unbound/issues/866)) ([1de3c32](https://github.com/breadcat0314/unbound/commit/1de3c32ab870793ea243a2dc5ddc55f92953b811))
+* **web:** track reading position in guide toc, debounce ⌘K ([#864](https://github.com/breadcat0314/unbound/issues/864)) ([f9d4687](https://github.com/breadcat0314/unbound/commit/f9d46872d934a4e6947ecc8bf96bcfeca5de356a))
+
+
+### Performance Improvements
+
+* **client:** cut the bundle by 28% and move off zod ([#868](https://github.com/breadcat0314/unbound/issues/868)) ([e662499](https://github.com/breadcat0314/unbound/commit/e662499d9553f8025a0f72ab03710273ba0507da))
+* **loader:** third native round, legacy removal, three Vencord ports ([#885](https://github.com/breadcat0314/unbound/issues/885)) ([7311206](https://github.com/breadcat0314/unbound/commit/7311206e0f0fad007bfc086fadd1c17181679fae))
+* **web:** preload the SDK reference and pin its sidebar controls ([#865](https://github.com/breadcat0314/unbound/issues/865)) ([5e56e71](https://github.com/breadcat0314/unbound/commit/5e56e7161f767f4f9ce9c2bef0147305781c7726))
+
+
+### Code Refactoring
+
+* fix architecture smells and enforce them with oxlint rules ([#574](https://github.com/breadcat0314/unbound/issues/574)) ([577a2af](https://github.com/breadcat0314/unbound/commit/577a2af9ca4f479a805765481927b1ff9302c1ec))
+* **loader:** choose the Android build in a tested command ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **plugins:** migrate every plugin to the new plugin setup ([#910](https://github.com/breadcat0314/unbound/issues/910)) ([bea93f7](https://github.com/breadcat0314/unbound/commit/bea93f7d146092cb72ed7892c3c97174ba7af6ae))
+* **plugins:** move first-party plugin ids to the new namespace ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* rename astral back to unbound ([#751](https://github.com/breadcat0314/unbound/issues/751)) ([05faca1](https://github.com/breadcat0314/unbound/commit/05faca1a9fef48992fd80f981f009d02da943b40))
+* **web:** drop the status page icon, keep the logo ([#748](https://github.com/breadcat0314/unbound/issues/748)) ([43a7cee](https://github.com/breadcat0314/unbound/commit/43a7cee9cc0965dfa93be2c6bbf2a4f61b2b744e))
+* **web:** load page data through TanStack Query ([#434](https://github.com/breadcat0314/unbound/issues/434)) ([199ca67](https://github.com/breadcat0314/unbound/commit/199ca673af2b6790ad116e21572199fe2f9c5d44))
+
+
+### Build System
+
+* **deps:** bump @babel/plugin-syntax-jsx from 7.29.7 to 8.0.1 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump @babel/preset-typescript from 7.29.7 to 8.0.7 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump postgres from 3.4.9 to 4.0.0 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump the minor-and-patch group with 5 updates ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump the minor-and-patch group with 7 updates ([#607](https://github.com/breadcat0314/unbound/issues/607)) ([e5b7afa](https://github.com/breadcat0314/unbound/commit/e5b7afaa780f5ad6143b6f18bb71bcad712953be))
+* treat Bun's empty test runs as passing in the pre-push hook ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+
+
+### Documentation
+
+* match the Android install steps to the release assets ([260d1e1](https://github.com/breadcat0314/unbound/commit/260d1e1d70b36185d780a202052f577c0ac5fe9a))
+* reorganise the developer and user guides ([#863](https://github.com/breadcat0314/unbound/issues/863)) ([b9ea08c](https://github.com/breadcat0314/unbound/commit/b9ea08c558ebcebe91131e3c655b294f0770e946))
+
+
+### Styles
+
+* **web:** a glowing Sponsor button and a Support Unbound card ([#908](https://github.com/breadcat0314/unbound/issues/908)) ([039f024](https://github.com/breadcat0314/unbound/commit/039f024831e85a517ec7c93d5354ddacc727ffeb))
+* **web:** docs polish and an always-on Sponsor CTA ([#855](https://github.com/breadcat0314/unbound/issues/855)) ([80ce7f0](https://github.com/breadcat0314/unbound/commit/80ce7f0d1df6f7d29268832fdf0bfcc49b33dcfe))
+* **web:** match nested corner shape for the key and copy button ([#858](https://github.com/breadcat0314/unbound/issues/858)) ([01129ad](https://github.com/breadcat0314/unbound/commit/01129ad8adbdd3e0f6a7d5795c50ae7e749683c0))
+* **web:** softer docs presses and concentric corners ([#856](https://github.com/breadcat0314/unbound/issues/856)) ([cb12c30](https://github.com/breadcat0314/unbound/commit/cb12c30404515cb4650dc6621fe8bc19e610f7fe))
+
+
+### Tests
+
+* **core:** keep sanitizer reports out of the crash attribution children ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* remove tautological tests and stop pinning brittle details ([#437](https://github.com/breadcat0314/unbound/issues/437)) ([b69ca6c](https://github.com/breadcat0314/unbound/commit/b69ca6c97c6470ac6cb1b0fa515c6e2f79639ba7))
+* **web:** key the sync tests' core store by SYNC_CORE_STORE ([#679](https://github.com/breadcat0314/unbound/issues/679)) ([d45b176](https://github.com/breadcat0314/unbound/commit/d45b176f1c4fede17cc22eeb44f005823bf3fa21))
+
+
+### Continuous Integration
+
+* **deps:** bump gradle/actions/setup-gradle to 6.4.1 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** fit Dependabot titles to the commit header limit ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** build PRs against the current App Store Discord ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** let main builds finish instead of cancelling each other ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** show smoke failures and the first crash in the PR comment ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+* **loader:** skip the Android smoke test for unattested builds ([e655fc4](https://github.com/breadcat0314/unbound/commit/e655fc49a4f8e46797a51d6add44a439f3271414))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @unbound-app/contracts bumped to 0.14.0
+    * @unbound-app/logger bumped to 0.7.4
+    * @unbound-app/utils bumped to 0.11.0
+
 ## [0.13.0](https://github.com/marioparaschiv/unbound/compare/web-v0.12.0...web-v0.13.0) (2026-11-05)
 
 

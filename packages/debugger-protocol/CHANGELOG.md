@@ -1,5 +1,46 @@
 # Changelog
 
+## [0.11.0](https://github.com/breadcat0314/unbound/compare/debugger-protocol-v0.10.0...debugger-protocol-v0.11.0) (2026-11-07)
+
+
+### Features
+
+* **cli:** add ubd status and ubd bridge restart ([#413](https://github.com/breadcat0314/unbound/issues/413)) ([ca2a235](https://github.com/breadcat0314/unbound/commit/ca2a235a73f37f6425fc91dfb6a2dd9dc953805d))
+* **cli:** overhaul the plugin developer experience ([#907](https://github.com/breadcat0314/unbound/issues/907)) ([64e34e7](https://github.com/breadcat0314/unbound/commit/64e34e7729ed1edf3677acdabbd32900a0945c9a))
+* **cli:** push compiled bytecode with a plugin ([#425](https://github.com/breadcat0314/unbound/issues/425)) ([87624bb](https://github.com/breadcat0314/unbound/commit/87624bb81463b9eb529c82cca3dda1fef8b9b581))
+* **debugger:** timestamp the bridge log and name the connected device ([#401](https://github.com/breadcat0314/unbound/issues/401)) ([61ba33f](https://github.com/breadcat0314/unbound/commit/61ba33f333f939dac9e8c0f98c40d2b468a2c604))
+* **themes:** add Rosie themes, a theme maker and theme hot reload ([#985](https://github.com/breadcat0314/unbound/issues/985)) ([0c926db](https://github.com/breadcat0314/unbound/commit/0c926dbc03587960ac2d16f16cdd78fd07abfc5e))
+
+
+### Performance Improvements
+
+* **client:** cut the bundle by 28% and move off zod ([#868](https://github.com/breadcat0314/unbound/issues/868)) ([e662499](https://github.com/breadcat0314/unbound/commit/e662499d9553f8025a0f72ab03710273ba0507da))
+
+
+### Code Refactoring
+
+* fix architecture smells and enforce them with oxlint rules ([#574](https://github.com/breadcat0314/unbound/issues/574)) ([577a2af](https://github.com/breadcat0314/unbound/commit/577a2af9ca4f479a805765481927b1ff9302c1ec))
+
+
+### Build System
+
+* **deps:** bump @babel/plugin-syntax-jsx from 7.29.7 to 8.0.1 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump @babel/preset-typescript from 7.29.7 to 8.0.7 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump postgres from 3.4.9 to 4.0.0 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+* **deps:** bump the minor-and-patch group with 5 updates ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+
+
+### Continuous Integration
+
+* **deps:** bump gradle/actions/setup-gradle to 6.4.1 ([513bfab](https://github.com/breadcat0314/unbound/commit/513bfab33593678c1cc0ea80c55658e0280e3942))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @unbound-app/types bumped to 0.13.0
+
 ## [0.10.0](https://github.com/marioparaschiv/unbound/compare/debugger-protocol-v0.9.1...debugger-protocol-v0.10.0) (2026-11-05)
 
 
